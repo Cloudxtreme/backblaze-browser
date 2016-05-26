@@ -1,0 +1,10 @@
+tool:
+    image: node:latest
+    volumes:
+        - .:/code
+    working_dir: /code
+    environment:
+        ACCOUNTID:
+        APPLICATIONKEY:
+        NODE_DEBUG: all
+    command: npm start
