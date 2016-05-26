@@ -1,0 +1,19 @@
+{
+  "name": "backblaze-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backblaze-b2": "^0.9.11",
+    "rxjs": "^5.0.0-beta.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
